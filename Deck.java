@@ -1,5 +1,7 @@
 import java.util.Random;
+
 public class Deck {
+
     public Deck() {
         // Create deck with 2 packs of cards.
         this.deck = new Card[104];
@@ -17,9 +19,11 @@ public class Deck {
         }*/
         
     }
+
     public Card[] getDeck() {
         return this.deck;
     }
+
     public void shuffleDeck() {
         Random rand = new Random();
         
@@ -31,5 +35,6 @@ public class Deck {
             this.deck[newPos] = tempCard;
         }
     }
+    
     private Card[] deck;
 }

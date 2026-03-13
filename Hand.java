@@ -6,7 +6,7 @@ public class Hand {
             hand[i] = deck.getDeck()[currentCard];
             currentCard++;
         }
-        this.hand = hand;
+        //this.hand = hand;
     }
     public Card[] getHand() {
         return this.hand;
